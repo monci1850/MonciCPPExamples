@@ -45,7 +45,7 @@ Player::Player(string name_val, int health_val, int xp_val)
 }
 */
 
-// Use constructor inilization lists is more efficient.
+// Use constructor initialization lists is more efficient.
 Player::Player()
 	:name{"None"}, health{100}, xp{9}
 {
