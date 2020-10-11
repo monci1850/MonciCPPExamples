@@ -1,4 +1,4 @@
-//// Delegating Constructors
+// Delegating Constructors
 
 
 #include <iostream>
