@@ -30,21 +30,21 @@ Deep::Deep(int d)
 }
 
 // Copy Constructor, in this case is Deep Copy
-Deep::Deep(const Deep& source)
-	:Deep{ *source.ptrData }	// delegating to regular constructor
-{
-	cout << "Copy constructor  - shallow copy" << endl;
-}
+//Deep::Deep(const Deep& source)
+//	:Deep{ *source.ptrData }	// delegating to regular constructor
+//{
+//	cout << "Copy constructor  - shallow copy" << endl;
+//}
 
-/* 
+
 //another way to write the deep copy constructor
 Deep::Deep(const Deep& source)
 {
 	ptrData = new int;
 	*ptrData = *source.ptrData;
-	cout << "Copy constructor  - shallow copy" << endl;
+	cout << "Copy constructor  - deep copy" << endl;
 }
-*/
+
 
 // Destructor
 Deep::~Deep()
@@ -53,7 +53,7 @@ Deep::~Deep()
 	cout << "Destructor freeing ptrData" << endl;
 }
 
-void display_shallow(Deep s) // passing object by value, where the PROBLEM shows up.
+void display_deep(Deep s) // passing object by value, where the PROBLEM shows up.
 {
 	cout << s.get_ptrData_value() << endl;
 }
@@ -63,7 +63,7 @@ int main()
 {
 	Deep obj1{ 100 };
 
-	display_shallow(obj1);	// this time will not crash.
+	display_deep(obj1);	// this time will not crash.
 
 	Deep obj2{ obj1 };
 	obj2.set_ptrData_value(888);

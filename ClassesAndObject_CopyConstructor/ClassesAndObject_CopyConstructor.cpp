@@ -18,7 +18,7 @@ public:
 	int get_health() { return health; };
 	int get_xp() { return xp; };
 
-	// Default constructor parameters
+	// Default constructor with parameters
 	Player(string name_val = "None", int health_val = 0, int xp_val = 0);
 
 	// Copy constructor
