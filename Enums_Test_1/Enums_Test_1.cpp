@@ -15,7 +15,7 @@ enum PlayerStatus
 enum MovementStatus
 {
 	MS_Crouched,
-	PS_Standing,	// To test the same name. 
+	PS_Standing2,	// To test the same name. VS will raise an redefinition error if we use the same name.
 };
 
 int main()
@@ -27,4 +27,5 @@ int main()
 	{
 		cout << "The player is standing now!" << endl;
 	}
+	system("pause");
 }
