@@ -149,6 +149,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enums_Test_1", "..\Enums_Te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch_Enum_PlayerStatus", "..\Switch_Enum_PlayerStatus\Switch_Enum_PlayerStatus.vcxproj", "{51566BD9-4E28-4202-9B57-2992EA299113}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static_Virtual_Dynamic_Memory_Destructor_Polymorphism", "Static_Virtual_Dynamic_Memory_Destructor_Polymorphism", "{3E7D9006-B8F2-4729-9492-860A5979E64D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_Heap_test", "..\Stack_Heap_test\Stack_Heap_test.vcxproj", "{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -693,6 +697,14 @@ Global
 		{51566BD9-4E28-4202-9B57-2992EA299113}.Release|x64.Build.0 = Release|x64
 		{51566BD9-4E28-4202-9B57-2992EA299113}.Release|x86.ActiveCfg = Release|Win32
 		{51566BD9-4E28-4202-9B57-2992EA299113}.Release|x86.Build.0 = Release|Win32
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Debug|x64.ActiveCfg = Debug|x64
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Debug|x64.Build.0 = Debug|x64
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Debug|x86.Build.0 = Debug|Win32
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Release|x64.ActiveCfg = Release|x64
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Release|x64.Build.0 = Release|x64
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Release|x86.ActiveCfg = Release|Win32
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -732,6 +744,7 @@ Global
 		{E751BF5D-AA6D-4A17-8895-D447B98751D7} = {06331846-5363-4E67-AB89-27F80262BCA4}
 		{B50A0C67-D16A-4BB4-B086-0968AD940A13} = {8B77855B-CFA6-4963-8AFD-6459BDF72D0C}
 		{51566BD9-4E28-4202-9B57-2992EA299113} = {8B77855B-CFA6-4963-8AFD-6459BDF72D0C}
+		{0CCC6AD8-D58B-4D9B-B867-1AE0A130A404} = {3E7D9006-B8F2-4729-9492-860A5979E64D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE125964-F07B-47AB-B02C-9A226EDF47A1}
